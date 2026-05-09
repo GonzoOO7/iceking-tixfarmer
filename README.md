@@ -12,9 +12,9 @@ get this repo (its just one script really)
 
 takes these cards:
 
-agressor, calypso, knight, and as many ivestors as possible
+agressor, calypso, knight, power stab, and as many investors as possible 
 
-![cards.png](cards.png)
+![no image :(](cards.png)
 
 btw you need 18sp and 7hp minimum
 

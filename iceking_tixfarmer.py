@@ -24,7 +24,7 @@ def enter():
 
 def call():
     action("Call calypso")
-    for i in ['d', 's', 'space', 's', 'space']:
+    for i in ['d', 's', 'space', 'd', 'd', 'd', 'space']:
         click(i)
     timeout(3)
 
