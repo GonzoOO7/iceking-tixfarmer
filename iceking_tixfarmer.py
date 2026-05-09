@@ -45,7 +45,7 @@ def stabby_stab():
         action(f"Stab {i+1}x")
         for j in ['space', 'd', 'space']:
             click(j)
-        timeout(5)
+        timeout(5.5)
 
 def await_calypso_win():
     info("Await calypso")
