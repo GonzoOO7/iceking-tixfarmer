@@ -6,7 +6,7 @@ get python if you dont have it
 
 install keyboard package im too lazy to write how
 
-get this repo (its just one script really)
+get this repo
 
 ## Setup ingame
 
@@ -22,20 +22,12 @@ you could also take sp saver and need only 14 sp or smth if you really want to..
 
 ## How to start
 
-go to the guru and say you very cold :freezy:
+start the master script, you'll have 3 seconds to switch to your game
 
-walk to the king but DO NOT PRESS E
-
-start the script, you'll have 3 seconds to switch to your game
-
-!important (yes this is css :) you MUST NOT HAVE YOUR MOUSE NEAR YOUR ACTIONS
+!important (yes this is very css :) you MUST NOT HAVE YOUR MOUSE NEAR YOUR ACTIONS
 
 if you have, just put it on your second screen after focusing the game
 
 ## Result
 
-you can now do anything else and be happy ^-^
-
-## TODO
-
-buy gold ingots in da bonk
+you can now do anything else and be happy knowing you'll be richie rich soon ^-^
