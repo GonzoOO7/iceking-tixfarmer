@@ -35,3 +35,7 @@ if you have, just put it on your second screen after focusing the game
 ## Result
 
 you can now do anything else and be happy ^-^
+
+## TODO
+
+buy gold ingots in da bonk
