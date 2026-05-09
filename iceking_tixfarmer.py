@@ -2,7 +2,7 @@
 import time
 import keyboard
 
-TIMES = 3
+TIMES = 48
 
 def info(text):
     print( "\033[3;34m" + text + "\033[m")
