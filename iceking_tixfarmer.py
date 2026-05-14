@@ -1,8 +1,9 @@
 # Make sure to stand at the ice king by the guru
+from math import ceil
 from utils import *
 
-TIMES = 50
-
+ICE_KING_TIX = 19
+GOAL_TIX = 900
 
 def enter():
     notify("Enter fight")
@@ -40,21 +41,22 @@ def await_calypso_win():
     info("Await victory")
     timeout(9)
 
-def main():
-    notify(f"Ready for {TIMES} runs")
+def main(starting_tix = 0):
+    runs = ceil((GOAL_TIX - starting_tix) / ICE_KING_TIX)
+    notify(f"Ready for {runs} runs ({runs * ICE_KING_TIX} tix)")
     timeout(3)
-    for r in range(TIMES):
+    for r in range(runs):
         enter()
         call()
         paint()
         await_calypso_king()
         stabby_stab()
         await_calypso_win()
-        if r == TIMES - 1:
-            info(f"All done :) ({TIMES} times)")
+        if r == runs - 1:
+            info(f"All done :) ({runs} times)")
             break
         else:
-            info(f"Here we go again x{r+1}")
+            info(f"Here we go again ({r+2}/{runs})")
 
 if __name__ == "__main__":
     main()

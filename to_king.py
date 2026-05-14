@@ -1,20 +1,19 @@
 from utils import *
 
 def main():
-    # warp guru
+    notify("Warp to ze guru")
     warp(['s', 'd'])
 
-    # walk guru
+    notify("Walk to ze guru")
     turn("a")
     dash()
 
-    # warp ice
+    notify("Talk about how cold you feel O_O")
     for i in [2, 2, 3, 3, 2, 2, 6, 2, 4, 2, 3, 3, 5, 3, 3, 1]:
         click('e')
         timeout(i)
 
-    # walk king
-    notify("walk to king")
+    notify("Walk to king")
     turn("d")
     for i in range(4):
         dash()

@@ -1,5 +1,9 @@
+import os
 import time
 import keyboard
+
+# Stop the program from anywhere with esc
+keyboard.add_hotkey("esc", lambda: os._exit(0))
 
 def info(text):
     print( "\033[3;34m" + text + "\033[m")
@@ -24,7 +28,6 @@ def turn(key):
     keyboard.release(key)
 
 def dash():
-    notify("dash")
     click('shift')
     timeout(2)
 
