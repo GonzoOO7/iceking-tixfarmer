@@ -53,10 +53,10 @@ def main(starting_tix = 0):
         stabby_stab()
         await_calypso_win()
         if r == runs - 1:
-            info(f"All done :) ({runs} times)")
+            notify(f"All done :) ({runs} times)")
             break
         else:
-            info(f"Here we go again ({r+2}/{runs})")
+            notify(f"Here we go again ({r+2}/{runs})")
 
 if __name__ == "__main__":
     main()
